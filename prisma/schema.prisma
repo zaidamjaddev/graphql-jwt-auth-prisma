@@ -19,6 +19,7 @@ model User {
   username String @map("user_name")
   password String
   email    String @unique
+  
 
   @@map("users") 
 }
